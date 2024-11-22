@@ -9,12 +9,8 @@ int reg(string a) {
 }
 
 int main(void) {
-    int t;
-    cin >> t;
-    while (t--) {
-        string a;
-        cin >> a;
-        cout << (reg(a) ? "YES" : "NO") << "\n";
-    }
+    string a;
+    cin >> a;
+    cout << (reg(a) ? "SUBMARINE" : "NOISE") << "\n";
     return 0;
 }
