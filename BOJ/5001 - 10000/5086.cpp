@@ -15,4 +15,4 @@ int main(void) {
       cout << "neither\n";
   }
   return 0;
-}
+}//새
